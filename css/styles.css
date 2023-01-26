@@ -1,0 +1,162 @@
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* title */
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+@media (max-width: 1028px) {
+  .title-image {
+    width: 50%;
+    position: static;
+    transform: rotate(0);
+  }
+    #title{
+      text-align: center;
+    }
+  }
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-pad{
+  margin-bottom: 20px;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* features */
+#features{
+  padding: 5% 15%;
+  background-color: #fff;
+  text-align: center;
+  position:relative;
+}
+
+.features-title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.features-icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.features-box{
+  padding: 3%;
+}
+.features-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: #8f8f8f;
+}
+
+/* Testimonials */
+#testimonials{
+  background-color: #ef8172;
+  padding: 5% 15%;
+  color: #fff;
+  text-align: center;
+}
+#press{
+  background-color: #fff;
+  text-align: center;
+  padding: 5% 15%;
+}
+.testimonial-image{
+  width: 10%;
+  margin: 20px;
+}
+
+.testimonial-text{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.press-logo{
+  width: 40%;
+  margin: 20px 70px 20px 85px;
+}
+.press-head{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin: 30px;
+}
+.last-logo{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#profiles{
+  background-color: #ef8172;
+  padding: 5% 15%;
+  text-align: center;
+}
+.dog-names{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+#pricing{
+  background-color: #fff;
+  padding: 5% 10%;
+  text-align: center;
+}
+.pricing-column{
+  padding: 2%;
+}
+#cta{
+  background-color: #ef8172;
+  padding: 5% 10%;
+  text-align: center;
+}
